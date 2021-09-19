@@ -1,0 +1,12 @@
+function mostrarFecha(){
+	fechaActual = new Date();
+	dia = diaActual.getDay();
+	mes = mesActual.getMonth();
+	año = año.getYear();
+	
+	fechaImprimible = dia + " : " + mes + ":" + año;
+	
+	//salida
+	
+Document.getElementById('FechaActual').innerHTML = fechaImprimible;
+}
